@@ -1,3 +1,5 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 # Modern Robotics Course 2 (Robot Kinematics) Project
 
 Instructor: [Kevin M. Lynch](https://robotics.northwestern.edu/people/profiles/faculty/lynch-kevin.html)
@@ -17,12 +19,24 @@ The goals of this programming assignment are three-fold:
 
 1. The outputs of the code will logged into the "log.txt" file, which shows necessary informations(iteration step number, joint angles vector, SE(3)end-effector configuration, error Twist in end-effector body frame, angular error magnitude, linear error magnitude) at each step.
 2. A text file called "iterates.cvs" will be created by the program, where each row of the text file consists of the comma separated joint values for that iterate.
-3. The initial guess <img width="20" height="20" src="http://latex.codecogs.com/png.latex?\dpi{400}\theta^0"/>) is chosen, so that the numerical inverse kinematics converges after 3-5 Newton-Raphson steps. 
+3. The initial guess $$\theta^0$$is chosen, so that the numerical inverse kinematics converges after 3-5 Newton-Raphson steps. 
 
 ## Result
 
 The convergence process of UR5 Robotarm from initial guess to the desired end-effector configuration
-![](http://latex.codecogs.com/png.latex?\dpi{400}T_{sd}=\left[\begin{matrix} 0 & 1 & 0 & -0.5 \\ 0 & 0 & -1 & 0.1\\-1 & 0 & 0 & 0.1\\0 & 0 & 0 & 1\end{matrix}\right])
+$$
+T_{sd}=
+\left[
+
+\begin{matrix}
+
+0 & 1 & 0 & -0.5 \\
+0 & 0 & -1 & 0.1\\
+-1 & 0 & 0 & 0.1\\
+0 & 0 & 0 & 1
+\end{matrix}
+\right])
+$$
 
 is demonstrated as follows
 
