@@ -6,12 +6,12 @@ Instructor: [Kevin M. Lynch](https://robotics.northwestern.edu/people/profiles/f
 
 This repository containts my work for the course project of the Specialization [Modern Robotics:Mechanics, Planning and Control Specialization](https://www.coursera.org/specializations/modernrobotics)
 
-In this programming assignment, I have modified the {\tt IKinBody}IKinBody function in the [modern_robotic library](https://github.com/NxRLab/ModernRobotics) to report the intermediate iterates of the Newton-Raphson inverse kinematics. I have applied my new function to solve the inverse kinematics of the UR5 industrial robot, and I have visualized the convergence of the iterations using the [CoppeliaSim robot simulator](https://www.coppeliarobotics.com/).
+In this programming assignment, I have modified the **IKinBody function** in the [modern_robotic library](https://github.com/NxRLab/ModernRobotics) to report the intermediate iterates of the Newton-Raphson inverse kinematics. I have applied my new function to solve the inverse kinematics of the UR5 industrial robot, and I have visualized the convergence of the iterations using the [CoppeliaSim robot simulator](https://www.coppeliarobotics.com/).
 
 The goals of this programming assignment are three-fold:
-	1. Increase the mastery of the MR library code.
-	2. Increase the comfort working with the CoppeliaSim simulator.
-	3. Solidify the understanding of numerical inverse kinematics.
+1. Increase the mastery of the MR library code.
+2. Increase the comfort working with the CoppeliaSim simulator.
+3. Solidify the understanding of numerical inverse kinematics.
 
 ## Requirements
 
@@ -36,5 +36,6 @@ $$
 $$
 
 is demonstrated as follows
+
 !["convergence process"](result.gif)
 !["end-effector configuration"](screenshot.png)
